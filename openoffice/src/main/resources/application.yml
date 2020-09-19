@@ -1,0 +1,7 @@
+com:
+  github:
+    open-office:
+      enable: true
+      ip: 127.0.0.1
+      path: D:/soft/OpenOffice4/program/soffice.exe
+      type: start

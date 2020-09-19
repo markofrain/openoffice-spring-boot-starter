@@ -1,0 +1,25 @@
+{
+  "properties": [
+    {
+      "name": "com.github.open-office.ip",
+      "type": "java.lang.String",
+      "description": "openOffice监听或连接的地址"
+    },
+    {
+      "name": "com.github.open-office.path",
+      "type": "java.lang.String",
+      "description": "openOffice启动路径,如果不为服务端则不要配置"
+    },
+    {
+      "name": "com.github.open-office.enable",
+      "type": "java.lang.Boolean",
+      "description": "若要启用服务端则设为true"
+    },
+    {
+      "name": "com.github.open-office.type",
+      "type": "com.github.openoffice.StartType",
+      "description": "OpenOffice在何时启动",
+      "sourceType": "com.github.openoffice.properties.OpenOfficeProperties"
+    }
+  ]
+}

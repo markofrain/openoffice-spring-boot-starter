@@ -1,0 +1,11 @@
+server:
+  port: 9000
+com:
+  github:
+    open-office:
+      type: none
+      enable: false
+      path: D:/soft/OpenOffice4/program/soffice.exe
+logging:
+  level:
+    com.github.openoffice: debug
